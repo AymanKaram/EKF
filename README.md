@@ -1,4 +1,4 @@
-# Setup
+# Setup github 
 
 This is how to setup a new machine
 
@@ -7,7 +7,6 @@ This is how to setup a new machine
 3- generate ssh key .. follow the steps in https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 4- Validate that the keys were generated.
-
     Issue the following commands.
 
     mcd $HOME/.ssh
@@ -28,6 +27,9 @@ $ ssh-add ~/.ssh/id_ed25519
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
 
+
+# setup docker
+1- follow the instructions in https://docs.docker.com/engine/install/ubuntu/
 
 
 
